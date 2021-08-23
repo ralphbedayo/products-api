@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'e7f98bbef06733afe64a5971de58b30864921c0a',
+    'reference' => '2a9d57b95c11eef479bb9c7dee1fafe47a1c1280',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -445,7 +445,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'e7f98bbef06733afe64a5971de58b30864921c0a',
+      'reference' => '2a9d57b95c11eef479bb9c7dee1fafe47a1c1280',
     ),
     'laravel/sail' => 
     array (
@@ -482,6 +482,15 @@
       array (
       ),
       'reference' => '9be3b16c877d477357c015cec057548cf9b2a14a',
+    ),
+    'league/fractal' => 
+    array (
+      'pretty_version' => '0.19.2',
+      'version' => '0.19.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '06dc15f6ba38f2dde2f919d3095d13b571190a7c',
     ),
     'league/mime-type-detection' => 
     array (
@@ -683,6 +692,24 @@
       ),
       'reference' => 'e7bdf4085de85a825f4424eae52c99a1cec2f360',
     ),
+    'prettus/l5-repository' => 
+    array (
+      'pretty_version' => '2.7.7',
+      'version' => '2.7.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9746e49113982f4afc0bceb5c37ec41f5f1a5594',
+    ),
+    'prettus/laravel-validation' => 
+    array (
+      'pretty_version' => '1.3.0',
+      'version' => '1.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'cce3c273c9d44f77de031dc4dedd261ab936c497',
+    ),
     'psr/container' => 
     array (
       'pretty_version' => '1.0.0',
@@ -760,8 +787,8 @@
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache' => 
