@@ -25,12 +25,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'dev-main',
-    'version' => 'dev-main',
+    'pretty_version' => 'dev-develop',
+    'version' => 'dev-develop',
     'aliases' => 
     array (
     ),
-    'reference' => '2a9d57b95c11eef479bb9c7dee1fafe47a1c1280',
+    'reference' => '9c1d5a93e6186841ba7844e890adc747eaf1720b',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -464,12 +464,12 @@ private static $installed = array (
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => 'dev-main',
-      'version' => 'dev-main',
+      'pretty_version' => 'dev-develop',
+      'version' => 'dev-develop',
       'aliases' => 
       array (
       ),
-      'reference' => '2a9d57b95c11eef479bb9c7dee1fafe47a1c1280',
+      'reference' => '9c1d5a93e6186841ba7844e890adc747eaf1720b',
     ),
     'laravel/sail' => 
     array (
@@ -1010,6 +1010,24 @@ private static $installed = array (
       array (
       ),
       'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
+    ),
+    'spatie/fractalistic' => 
+    array (
+      'pretty_version' => '2.9.1',
+      'version' => '2.9.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c4fc2b223a8f7321ece449abc2c59cc5baf470fd',
+    ),
+    'spatie/laravel-fractal' => 
+    array (
+      'pretty_version' => '5.8.1',
+      'version' => '5.8.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'be3ccd54e26742cd05b3637fb732fd9addfa28df',
     ),
     'swiftmailer/swiftmailer' => 
     array (
