@@ -2,7 +2,7 @@
 
 namespace App\Repositories;
 
-abstract class BaseRepository
+abstract class BaseRepository extends \Prettus\Repository\Eloquent\BaseRepository
 {
 
 }
