@@ -110,11 +110,10 @@ class ProductController extends BaseController
     {
         $this->validate(request()->merge(['id' => $iId]), ProductConstants::REQUIRED_PRODUCT_ID_VALIDATION_RULE);
 
-        $iProductsDeleted = $this->oProductService->deleteProduct($iId);
+        $bIsProductDeleted = $this->oProductService->deleteProduct($iId);
 
         return $this->json([
-            'code' => Response::HTTP_OK,
-            'products_deleted' => $iProductsDeleted
+            'is_product_deleted' => $bIsProductDeleted
         ]);
     }
 }
