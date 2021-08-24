@@ -14,7 +14,6 @@ use App\Services\Product\ProductService;
 use App\Traits\ResponseTrait;
 use App\Transformers\ProductTransformer;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Response;
 use Illuminate\Validation\ValidationException;
 
 class ProductController extends BaseController
