@@ -11,6 +11,7 @@ use App\Exceptions\UpdateResourceException;
 use App\Repositories\Product\ProductRepository;
 use App\Services\BaseService;
 use Illuminate\Support\Facades\Log;
+use function GuzzleHttp\Promise\all;
 
 class ProductService extends BaseService
 {
@@ -47,6 +48,7 @@ class ProductService extends BaseService
      */
     public function getAllProduct()
     {
+        logger(request()->getQueryString());
         try {
             return $this->oProductRepository->paginate();
         } catch (\Exception $exception) {

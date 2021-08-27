@@ -61,6 +61,14 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
+        ],
+        "test:feature" : [
+            "@putenv XDEBUG_MODE=coverage",
+            "./vendor/bin/phpunit --testsuite Feature --color=always --coverage-html=./tests/reports/coverage-html"
+        ],
+        "test:unit": [
+            "@putenv XDEBUG_MODE=coverage",
+            "./vendor/bin/phpunit --testsuite Unit --color=always --coverage-html=./tests/reports/coverage-html"
         ]
     }
 }
